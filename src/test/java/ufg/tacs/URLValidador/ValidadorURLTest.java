@@ -1,16 +1,15 @@
 package ufg.tacs.URLValidador;
 
-import org.junit.Test; 
+import org.testng.annotations.Test;
 
 import junit.framework.TestCase;
 
 public class ValidadorURLTest extends TestCase  {
-    
-	/*
+/*
     @Test
     public void testUrlFacebook() {
     	
-        String url = "http://www.facebook.com/userAsigor";
+        String url = "http://www.facebook.com/IgorCMontenegroC/photos";
         ValidadorURL instance = new ValidadorURL();
         
         boolean resultExperado = true;
@@ -22,16 +21,16 @@ public class ValidadorURLTest extends TestCase  {
     @Test
     public void testUrlInstagram() {
     	
-        String url = "http://www.instagram.com/phothos/userAsjoao";
+        String url = "http://www.instagram.com/cmcigor";
         ValidadorURL instance = new ValidadorURL();
         
         boolean resultExperado = true;
         boolean resultObtido = instance.validadorDeUrl(url);
         
         assertEquals(resultExperado, resultObtido);
-    }  
+    }
 	*/
-	
+
     @Test
     public void testUrlComDominioDeRedeInvalido() {
     	
@@ -42,6 +41,6 @@ public class ValidadorURLTest extends TestCase  {
         
         assertEquals(resultExperado, resultObtido);
     } 
-    
+
 }
 
